@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="PhpIncludePathManager">
+    <include_path>
+      <path value="$PROJECT_DIR$/projet-ws/vendor/composer" />
+      <path value="$PROJECT_DIR$/projet-ws/vendor/paragonie/random_compat" />
+      <path value="$PROJECT_DIR$/projet-ws/vendor/evenement/evenement" />
+      <path value="$PROJECT_DIR$/projet-ws/vendor/symfony/polyfill-php70" />
+      <path value="$PROJECT_DIR$/projet-ws/vendor/symfony/http-foundation" />
+      <path value="$PROJECT_DIR$/projet-ws/vendor/symfony/polyfill-mbstring" />
+      <path value="$PROJECT_DIR$/projet-ws/vendor/symfony/event-dispatcher" />
+      <path value="$PROJECT_DIR$/projet-ws/vendor/symfony/routing" />
+      <path value="$PROJECT_DIR$/projet-ws/vendor/guzzle/http" />
+      <path value="$PROJECT_DIR$/projet-ws/vendor/guzzle/stream" />
+      <path value="$PROJECT_DIR$/projet-ws/vendor/guzzle/parser" />
+      <path value="$PROJECT_DIR$/projet-ws/vendor/guzzle/common" />
+      <path value="$PROJECT_DIR$/projet-ws/vendor/cboden/ratchet" />
+      <path value="$PROJECT_DIR$/projet-ws/vendor/react/event-loop" />
+      <path value="$PROJECT_DIR$/projet-ws/vendor/react/socket" />
+      <path value="$PROJECT_DIR$/projet-ws/vendor/react/promise" />
+      <path value="$PROJECT_DIR$/projet-ws/vendor/react/stream" />
+    </include_path>
+  </component>
+</project>
