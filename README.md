@@ -20,3 +20,11 @@ Pour le lancer :
 ```
 docker-compose up
 ```
+
+### Accéder au projet
+
+* API
+http://localhost/api/ + "fichier.php"
+
+* PHPMyAdmin
+http://localhost:8080
