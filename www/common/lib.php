@@ -222,8 +222,9 @@ function getUserByLogin($username, $password)
     }
 
     if ($output == null) {
-        echo '{"info" : "Incorrect login !!!"}';
-        http_response_code(400);
+        header("HTTP/1.1 404 Not Found");
+        echo '{"info" : "User not found !!!"}';
+
     } else {
 		// Here get test token...
 		$sql = "SELECT * FROM token WHERE id_user=" . $output['id'];

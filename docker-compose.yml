@@ -8,8 +8,6 @@ services:
             - ./www/:/var/www/html/
         links:
             - db
-        networks:
-            - default
     db:
         image: mysql:8.0
         ports:
@@ -24,8 +22,6 @@ services:
             - ./dump:/docker-entrypoint-initdb.d
             - ./conf:/etc/mysql/conf.d
             - persistent:/var/lib/mysql
-        networks:
-            - default
     phpmyadmin:
         image: phpmyadmin/phpmyadmin
         links:
