@@ -21,8 +21,7 @@ Pour le lancer :
 docker-compose up
 ```
 
-### Accéder au projet
-
+Une fois lancé, accessible depuis :
 * API
 http://localhost/api/ + "fichier.php"
 
